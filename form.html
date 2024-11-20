@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>formulario</title>
+</head>
+
+<body>
+    <form><form action="index.html" method="get">
+
+        <legend>registrate </legend>
+
+        <div>
+        <label for="name">nombre</label>
+        <input type="nombre" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="apellido">apellido</label>
+        <input type="text" required>
+        </div>
+
+        <br>
+
+        <div>
+        <select name="sexo">
+        <option value="masculino">masculino</option>
+        <option value="femenino">femenino</option>
+        </select>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="email">email</label>
+        <input type="email" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="color">color</label>
+        <input type="color" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="edad">edad</label>
+            <input type="number" id="edad" step="1" max="100" min="0" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="numeros">numeros</label>
+            <input type="text" id="numeros" step="1" max="100" min="0" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="positivos">positivos</label>
+            <input type="number" min="0" required>
+        </div>
+         
+        <br>
+
+        <div>
+            <label for="positivos-negativos">positivos-negativos</label>
+            <input type="number" step="0.5" max="20" value="15" min="10" required>
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="hora">hora</label>
+            <input type="time" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="name">contraseña</label>
+        <input type="password" placeholder="proteccion" required>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="ciudad">ciudad</label>
+            <select name="ciudad" id="ciudad">
+                <option value="1">bucaramanga</option>
+                <option value="2">floridablanca</option>
+                <option value="3">giron</option>
+                <option value="4">piedecuesta</option>
+                <option value="5">bogota</option>
+                <option value="6">medellin</option>
+                <option value="7">cali</option>
+                <option value="8">chigorodo</option>
+                <option value="9">zipaquira</option>
+                <option value="10">barranquilla</option>
+                <option value="11">choco</option>
+                <option value="12">valledupar</option>
+                <option value="13">cartagena</option>
+                <option value="14">pasto</option>
+                <option value="15">arnenia</option>
+                <option value="16">barrancabermeja</option>
+            </select>    
+        </div>
+
+        <br>
+
+        <div>
+        <label for="archivos">archivos</label>
+        <input type="file" accept="jpg" accept="png">
+        </div>
+        
+        <br>
+
+        <div>
+        <label for="fecha de nacimiento">fecha de nacimiento</label>
+                    <input type="date" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="materia">materia</label>
+            <select name="materia" id="materia">
+                <option value="1">java</option>
+                <option value="2">phy</option>
+                <option value="3">html</option>
+                <option value="4">css</option>
+                <option value="5">sql</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="aprendiz">aprendiz</label>
+            <input type="text" id="aprendiz" name="nombre" value="anderson fabian murcia pedraza" readonly>
+        </div>
+
+        <button type="submit">enviar</button>
+        
+    </form>
+</body>
+
+</html>
